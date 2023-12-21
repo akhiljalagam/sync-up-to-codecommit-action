@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -ue
+set -xue
 
 RepositoryName="${INPUT_REPOSITORY_NAME}"
 AwsRegion="${INPUT_AWS_REGION}"

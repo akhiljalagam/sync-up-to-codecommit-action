@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM alpine
 
 RUN apk --update --no-cache add git aws-cli
 
