@@ -32,7 +32,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Sync up to CodeCommit
-        uses: youyo/sync-up-to-codecommit-action@v1
+        uses: akhiljalagam/sync-up-to-codecommit-action@v1.1
         with:
           repository_name: test_repo
           aws_region: us-east-1
@@ -49,4 +49,4 @@ jobs:
 
 ## Author
 
-[youyo](https://github.com/youyo)
+[akhiljalagam](https://github.com/akhiljalagam)
